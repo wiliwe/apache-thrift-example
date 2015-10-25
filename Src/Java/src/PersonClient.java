@@ -19,7 +19,7 @@ public class PersonClient {
 
        System.out.println("開始呼叫...");
        start = System.currentTimeMillis();   // store/remember start time
-       Person person = client.getPersonById(597);
+       Person person = client.getPersonById(125);
 
        System.out.println("呼叫结果：" + person.toString());
        transport.close();

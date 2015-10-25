@@ -7,7 +7,7 @@ public class PersonServiceImpl implements PersonService.Iface {
 	
 	@Override
 	public Person getPersonById(int id) throws TException{
-		p = new Person(id, "William", 99, false);
+		p = new Person(id, "John", 99, false);
 		
 		return p;
 	}
